@@ -119,8 +119,8 @@ input {
    margin-right: 3px;
 }
 
-.header-2{
-   border: none ;
+.header-2 {
+   border: none;
 }
 
 
@@ -137,7 +137,7 @@ input {
    height: auto;
    margin-top: 9px;
    margin-bottom: 20px;
-   background-color: rgb(244, 206, 201);
+   background-color: rgba(232, 217, 217, .3)
 }
 
 .first-section-title {
@@ -167,13 +167,12 @@ input {
 .first-link {
    text-align: center;
    text-decoration: none;
-
    margin-bottom: 10px;
-   background-color: red;
+   background-color: #FB3B49;
    color: white;
    width: 180px;
    font-size: 20px;
-   box-shadow: 12px 6px 5px 0px rgba(233, 112, 112, 0.68);
+   box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
    padding: 20px;
 }
 
@@ -207,7 +206,10 @@ input {
 
 .second-section h2 {
    font-size: 2.5rem;
-   background-color: antiquewhite;
+   background-color: rgba(255, 204, 53, .4);
+   padding: 0 7px 0 7px;
+   transform: skew(9deg, 0deg);
+   font-style: italic
 }
 
 .second-section article {
@@ -238,7 +240,7 @@ input {
 }
 
 .third-section-elements h4 {
-   color: red;
+   color: #ED1C24;
 }
 
 .third-section-img {
@@ -259,5 +261,5 @@ input {
    width: 300px;
    font-size: 1.2rem;
    font-weight: 600;
-   box-shadow: 10px 5px 5px 0px rgba(66, 48, 48, 0.68);
+   box-shadow: 8px 8px 0 rgba(128, 83, 35, .2)
 }
